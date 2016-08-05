@@ -30,7 +30,7 @@ body {
 
 .header-message{
     padding-top: 25px;
-    padding-bottom: 75px;
+    padding-bottom: 50px;
 }
 
 .montserrat{
@@ -43,4 +43,16 @@ body {
 
 .info{
     padding-top: 75px;
+}
+
+.panel-body{
+    color: #000000;
+}
+
+a#git:hover{
+    color: dodgerblue;
+}
+
+a#git{
+    color: chocolate;
 }
