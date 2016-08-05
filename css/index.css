@@ -1,8 +1,11 @@
 /* Links */
-a,
+a{
+    color: dodgerblue;
+}
+
 a:focus,
 a:hover {
-  color: #fff;
+  color: #ffffff;
 }
 /*
  * Base structure
@@ -11,10 +14,10 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #0b2732;
 }
 body {
-  color: #fff;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -22,10 +25,12 @@ body {
     padding-top: 50px;
     background-image: url(../img/header-background.jpg);
     background-position: 0% 51px;
+    background-repeat: no-repeat;
 }
 
 .header-message{
     padding-top: 25px;
+    padding-bottom: 75px;
 }
 
 .montserrat{
@@ -37,5 +42,5 @@ body {
 }
 
 .info{
-    padding-top: 25px;
+    padding-top: 75px;
 }
