@@ -1,0 +1,58 @@
+/* Links */
+a{
+    color: dodgerblue;
+}
+
+a:focus,
+a:hover {
+  color: #ffffff;
+}
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #0b2732;
+}
+body {
+  color: #ffffff;
+  text-align: center;
+}
+
+.header{
+    padding-top: 50px;
+    background-image: url(../img/header-background.jpg);
+    background-position: 0% 51px;
+    background-repeat: no-repeat;
+}
+
+.header-message{
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.space_mono{
+    font-family: 'Space Mono', monospace;
+}
+
+.info{
+    padding-top: 75px;
+}
+
+.panel-body{
+    color: #000000;
+}
+
+a#git:hover{
+    color: dodgerblue;
+}
+
+a#git{
+    color: chocolate;
+}
