@@ -33,6 +33,11 @@ body {
     padding-bottom: 50px;
 }
 
+.footer-message{
+    padding-top: 25px;
+    font-family: 'Space Mono', monospace;
+}
+
 .montserrat{
     font-family: 'Montserrat', sans-serif;
 }
