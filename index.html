@@ -8,150 +8,163 @@
         <meta name="author" content="Paolo Paterna">
         <link rel="icon" href="img/favicon.ico">
         <title>Paolo Paterna's Personal Website</title>
+        <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat%7cSpace+Mono" rel="stylesheet">
         <!-- Bootstrap stuff -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-        <!-- End of Bootstrap stuff -->
-        <link href="css/index.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><!-- End of Bootstrap stuff -->
+        <link href="css/index.css" rel="stylesheet">
     </head>
     <body>
-        <div id="fb-root"></div>
-        <nav class="navbar navbar-inverse navbar-fixed-top topnav">
+        <!--<div id="fb-root"></div>-->
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand topnav" href="#">Paolo Paterna's Website</a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#home">Home</a>
+                <a class="navbar-brand" href="#">Paolo Paterna's Website</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
-                        <li>
-                            <a href="#about">About</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
                         </li>
-                        <li>
-                            <a href="#repos">Github Repos</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#repos">Github Repos</a>
                         </li>
-                        <li>
-                            <a href="#contact">Contact</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
-                <!-- /.navbar-collapse -->
             </div>
-            <!-- /.container -->
         </nav>
-        <!-- Header -->
+        <!-- Body -->
         <div class="header" id="home">
-            <div class="container content">
-                <div class="col-lg-12">
-                    <div class="header-message">
-                        <h1>Paolo Paterna's Personal Website</h1>
-                    </div>
-                    <div class="container-fluid info">
-                        <div class="col-md-6">
-                            <div class="lead montserrat">
-                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Who am I?
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="header-message">
+                            <h1>Paolo Paterna's Personal Website</h1>
+                        </div>
+                        <div class="row info">
+                            <div class="col-md-6">
+                                <div class="lead montserrat">
+                                   Who am I?
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="space_mono">
+                                    <p>I'm a master degree student in Computer Science and Engineering at <a href="https://www.polimi.it/en/home/">Politecnico di Milano University</a>.</p>
+                                    <p>But also a programmer and gamer.</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="space_mono">
-                                <p>I'm a master degree student in Computer Science and Engineering at <a href="http://www.polimi.it/en/english-version/">Politecnico di Milano University</a>.</p>
-                                <p>But also a programmer and gamer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container-fluid info" id="about">
-                        <div class="col-md-6">
+                        <div class="row info" id="about">
+                            <div class="col-md-6">
                                 <div class="lead montserrat">About</div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="space_mono">
-                                <p>I live in Italy, Milan and I'm very passionate about computers since I was very young. I had my very first computer when I still can't read. I started programming when I was on middle school and since then i never stopped!</p>
-                                <p>I also like A LOT to play games on my computer; I actually play <strong>World of Warcraft</strong> (guild <a href="https://cavalierideldrago.tk">Cavalieri del Drago</a> as <a href="http://eu.battle.net/wow/en/character/pozzo-delleternita/Xasik/advanced">Xasik, Holy Priest</a>), <strong>Heroes of the Storm</strong> plus many other titles both in single and multi player.</p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="container-fluid info" id="repos">
-                        <div class="col-md-6">
-                            <div class="lead montserrat">
-                                <p>Github Repositories</p>
-                                <h6>Here are linked the biggest project i've worked on, note that i'm not the only contributor to them!</h6>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="space_mono">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h3 class="panel-title"><a id="git" href="https://github.com/TopoDiFogna/Escape_From_Aliens">Escape from Aliens in the Outer Space</a></h3>
-                                    </div>
-                                    <div class="panel-body">
-                                        This project is a board game produced by <a id="git" href="http://www.craniocreations.it/">Cranio Creations</a> and it was developed in java as my last work before my bachelor degree. It has very basic graphics and lots of bugs and duplicated code. Maybe someday will be fixed.
-                                    </div>
-                                </div> 
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h3 class="panel-title"><a id="git" href="https://github.com/TopoDiFogna/big_gym_website">Big Gym Website</a></h3>
-                                    </div>
-                                    <div class="panel-body">
-                                        This project is a sample site for a gym, it was developed in HTML5, CSS, PHP, JS, MySQL for an univeristy project. We had some limitations imposed by our professor so most pages are html ones that use external php scripts.
-                                    </div>
-                                </div>
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h3 class="panel-title"><a id="git" href="https://github.com/TopoDiFogna/poli_telegram_bot">PoliTelegramBot</a></h3>
-                                    </div>
-                                    <div class="panel-body">
-                                        This is a simple bot for Telegram developed entirely in php that should help students find their lectures' classroom or find an empty classroom to study into. Try it <a id="git" href="https://telegram.me/PoliMilanoBot">PoliMilanoBot</a>
-                                    </div>
+                            <div class="col-md-6">
+                                <div class="space_mono">
+                                    <p>I live in Italy, Milan and I'm very passionate about computers since I was very young. I had my very first computer when I still can't read. I started programming when I was on middle school and since then i never stopped!</p>
+                                    <p>I also like A LOT to play games on my computer; I actually play <strong>World of Warcraft</strong> (guild <a href="https://cavalierideldrago.ga">Cavalieri del Drago</a> as <a href="http://eu.battle.net/wow/en/character/pozzo-delleternita/Xasik/advanced">Xasik, Holy Priest</a>), <strong>Heroes of the Storm</strong> plus many other titles both in single and multi player.</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="container-fluid info" id="contact">
-                        <div class="col-md-6">
+                        <div class="row info" id="repos">
+                            <div class="col-md-6">
+                                <div class="lead montserrat">
+                                    <p>Github Repositories</p>
+                                    <small class="text-muted">Here are linked the biggest project i've worked on, note that i'm not the only contributor to them!</small>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="space_mono">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="card-title">
+                                                <h4><a class="git" href="https://github.com/TopoDiFogna/Escape_From_Aliens">Escape from Aliens in the Outer Space</a></h4>
+                                            </div>
+                                            <div class="card-text">
+                                                This project is a board game produced by <a class="git" href="http://www.craniocreations.it/">Cranio Creations</a> and it was developed in java as my last work before my bachelor degree. It has very basic graphics and lots of bugs and duplicated code. Maybe someday will be fixed.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="card-title">
+                                                <h4><a class="git" href="https://github.com/TopoDiFogna/big_gym_website">Big Gym Website</a></h4>
+                                            </div>
+                                            <div class="card-text">
+                                                This project is a sample site for a gym, it was developed in HTML5, CSS, PHP, JS, MySQL for an univeristy project. We had some limitations imposed by our professor so most pages are html ones that use external php scripts.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="card-title">
+                                                <h4><a class="git" href="https://github.com/flaprimo/UniversityBot">PoliTelegramBot</a></h4>
+                                            </div>
+                                            <div class="card-text">
+                                                This is a simple bot for Telegram developed entirely in python that should help students find their lectures' classroom or find an empty classroom to study into. Try it <a class="git" href="https://telegram.me/r3dg047_bot">PoliMilanoBot</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="card-title">
+                                                <h4><a class="git" href="https://github.com/TopoDiFogna/AdaptAnalyzer">Master Degree Thesis</a></h4>
+                                            </div>
+                                            <div class="card-text">
+                                                This is the repository holding my master degree thesis
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row info" id="contact">
+                            <div class="col-md-6">
                                 <div class="lead montserrat">Contact</div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="space_mono">
-                                <dl class="dl-horizontal">
-                                    <dt>Twitter</dt>
-                                    <dd>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col">
+                                        Twitter
+                                    </div>
+                                    <div class="col">
                                         <a class="twitter-follow-button" href="https://twitter.com/paoloptrn" data-show-count="false" data-size="large">Follow me!</a>
-                                    </dd>
-                                    <dt>Facebook</dt>
-                                    <dd>
-                                       <div class="fb-follow" data-href="https://www.facebook.com/topodifogna" data-layout="button" data-size="large" data-show-faces="false"></div>
-                                    </dd>
-                                    <dt>Google+</dt>
-                                    <dd>
-                                        <div class="g-follow" data-annotation="none" data-height="24" data-href="https://plus.google.com/u/0/106772324023509040599" data-rel="author"></div>
-                                    </dd>
-                                </dl>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        Facebook
+                                    </div>
+                                    <div class="col">
+                                        <div class="fb-follow" data-href="https://www.facebook.com/topodifogna" data-layout="button" data-size="large" data-show-faces="false"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="footer-message">
-                        <p>Site created by me</p>
-                        <p>Sources avaible at <a href="https://github.com/TopoDiFogna/personalWebsite">Github</a></p>
                     </div>
                 </div>
+                <div class="row">
+                <div class="col footer-message">
+                    <p>Site created by me</p>
+                    <p>Sources avaible at <a href="https://github.com/TopoDiFogna/personalWebsite">Github</a></p>
+                </div>
+            </div>
             </div>
         </div>
-        <!-- /Header -->
-        <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="js/twitter.min.js"></script>
         <script src="js/facebook.min.js"></script>
-        <script src="https://apis.google.com/js/platform.js" async defer></script>
     </body>
 </html>
